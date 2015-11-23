@@ -2799,7 +2799,7 @@ function fillDatabase() {
  *      min: the lower bound of the range
  *      max: the upper bound of the range
  *
- * returns a random float on the range: min <= retunrFloat <= max
+ * returns a random float on the range: min <= returnFloat <= max
  */
 function randomInRange(min, max) {
     return((Math.random() * (max - min + 1)) + min);
