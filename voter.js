@@ -1,6 +1,6 @@
 /* voter.js
  *
- * rates the messages in the database and clears messages from the database which do not meet survival requirments
+ * rates the messages in the database and clears messages from the database which do not meet survival requirements
  */
 
 var MongoClient = require('mongodb').MongoClient;
